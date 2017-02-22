@@ -1,6 +1,6 @@
 {
   "name": "node-witai-speech",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is an API wrapper for witai speech for nodejs",
   "main": "index.js",
   "scripts": {
