@@ -24,7 +24,7 @@ var content_type = "audio/wav";
 // Its best to return a promise
 var parseSpeech =  new Promise((ressolve, reject) => {
     // call the wit.ai api with the created stream
-    WitSpeech.captureSpeechIntent(API_KEY, stream, content_type, 
+    WitSpeech.extractSpeechIntent(API_KEY, stream, content_type, 
     (err, res) => {
         if (err) return reject(err);
         ressolve(res);
