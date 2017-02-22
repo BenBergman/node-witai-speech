@@ -3,7 +3,7 @@ Wit.ai speech API wrapper to extract the meaning of audio file
 
 ## Install
 
-> npm install witai-speech [--save]
+> npm install node-witai-speech [--save]
 
 
 ## Usage
