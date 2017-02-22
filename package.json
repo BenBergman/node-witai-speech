@@ -1,8 +1,8 @@
 {
   "name": "node-witai-speech",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is an API wrapper for witai speech for nodejs",
-  "main": "index.js",
+  "main": "witSpeech.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

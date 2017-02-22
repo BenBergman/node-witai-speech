@@ -53,4 +53,6 @@ const extractSpeechIntent = function (access_token, stream, content_type, option
     }));
 };
 
-module.exports = extractSpeechIntent
+module.exports = {
+    extractSpeechIntent
+}
