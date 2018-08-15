@@ -47,7 +47,7 @@ const extractSpeechIntent = function (access_token, stream, content_type, option
     // Pipe the request
     stream.pipe(request(request_options, function (error, response, body) {
         if (response && response.statusCode != 200) {
-            error = "Invalid response received from server: " + response.statusCode
+            error = "Invalid response received from server: " + response.statusCode + (body.code ? ' - code: ' + body.code : '')
         }
         callback(error, body);
     }));
